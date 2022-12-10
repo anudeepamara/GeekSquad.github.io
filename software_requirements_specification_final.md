@@ -173,10 +173,15 @@ This application is currently extended with the following plugins which was code
 
 # Software Artifacts
 
-This section was about to Guide all the artifacts which were developed while creating the application. And we will assign the function and non-functional requirements to align with the artifacts.
+This section was about to Guide all the artifacts which were developed while creating the application. And we will assign the function and non-functional requirements to align with the artifacts.below was the links to referer the each artifacts for the application.
 
 * [Use Case Diagrams + Activity Diagrams](https://github.com/anudeepamara/GeekSquad.github.io/blob/master/docs/Content1.pdf)
-
+* [Class Diagram + Object Model](https://github.com/anudeepamara/GeekSquad.github.io/blob/master/docs/Content2.pdf)
+* [Sequence Diagram + State Machine](https://github.com/anudeepamara/GeekSquad.github.io/blob/master/docs/Content3.pdf)
+* [Siganature + Class Diagram](https://github.com/anudeepamara/GeekSquad.github.io/blob/master/docs/Content5.pdf)
+* [Database Tables](https://github.com/anudeepamara/GeekSquad.github.io/blob/master/docs/Content7.pdf)
+* [Mockup Screens](https://github.com/anudeepamara/GeekSquad.github.io/blob/master/docs/Content8.pdf)
+* [Class Diagrams with pre conditions and post conditions](https://github.com/anudeepamara/GeekSquad.github.io/blob/master/docs/Content6.pdf)
 
 
 
