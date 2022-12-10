@@ -132,6 +132,38 @@ This application is currently extended with the following plugins which was code
 | org.junit.vintage    | This was the plugin for the Jnuint to run the test cases in the system |
 | org.springframework.boot | This plugin was used to create the spring nature in the application |
 
+- We can check for the user feedback also to ensure that the application has been installed smoothly and working in all possible ways.
+- Based on the Booking’s made by user we can ensure that all the functional requirements have been working.
+
+## To ensure that it has resolved the issues of food ordering:
+
+## Traceability links
+
+This section was about to Guide all the artifacts which were developed while creating the application. And we will assign the function and non-functional requirements to align with the artifacts.
+
+## use case Diagram + Activity Diagram
+
+| Artifact ID | Artifact Name | Requirement ID |
+| :-------------: | :----------: | :----------: |
+|    UseCase1     | Food Items    |     FR5     |
+|    UseCase1     | View Items    |     FR5     |
+|    UseCase1     | Add To Cart   |     FR5     |
+
+
+## Class Diagram + Object Model
+
+| Artifact Name   | Requirement ID |
+| :----------:    | :----------: |
+| Class User      |     FR5     |
+| Class Location  |     FR5     |
+| Class Restuarent     |     FR5     |
+| Class Food      |     FR5     |
+| Class Admin      |     FR5     |
+| Class Cart      |     FR5     |
+| Class Cart Items      |     FR5     |
+| Class Orders      |     FR5     |
+| Class Order Items      |     FR5     |
+
 
 
 
