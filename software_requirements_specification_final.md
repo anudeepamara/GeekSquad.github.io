@@ -138,19 +138,26 @@ This application is currently extended with the following plugins which was code
 ## To ensure that it has resolved the issues of food ordering:
 
 ## Traceability links
-
-This section was about to Guide all the artifacts which were developed while creating the application. And we will assign the function and non-functional requirements to align with the artifacts.
-
-## use case Diagram + Activity Diagram
+ 
+ This section was about to explain the indetails of the class diagrams and the use case diagrams,Activity diagrams which were involved in the application.
+ 
+## use case Diagram 
 
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
 |    UseCase1     | Food Items    |     FR5     |
-|    UseCase1     | View Items    |     FR5     |
-|    UseCase1     | Add To Cart   |     FR5     |
+|    UseCase2     | View Items    |     FR5     |
+|    UseCase3     | Add To Cart   |     FR5     |
 
+## Activity Diagram
 
-## Class Diagram + Object Model
+| Artifact ID | Artifact Name | Requirement ID |
+| :-------------: | :----------: | :----------: |
+|    UseCase4     | Add To Cart    |     FR5     |
+|    UseCase5     | update The quantity    |     FR5     |
+|    UseCase6     | Remove the items   |     FR5     |
+
+## Class Diagram
 
 | Artifact Name   | Requirement ID |
 | :----------:    | :----------: |
@@ -164,6 +171,11 @@ This section was about to Guide all the artifacts which were developed while cre
 | Class Orders      |     FR5     |
 | Class Order Items      |     FR5     |
 
+# Software Artifacts
+
+This section was about to Guide all the artifacts which were developed while creating the application. And we will assign the function and non-functional requirements to align with the artifacts.
+
+* [Use Case Diagrams + Activity Diagrams](https://github.com/anudeepamara/GeekSquad.github.io/blob/master/docs/Content1.pdf)
 
 
 
