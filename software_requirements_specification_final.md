@@ -1,48 +1,75 @@
 ## This Document Describes the Functional and Non-Functional Requirements for the project.
 
+# Software Requirements
+
 # Functional Requirements
 
-1. Login/Register
-   1. Login page where user needs to enter the credentials of his/her Shall account. and then it shall redirect to home page.
-   2. if the user is new to account/application. When the user  tries to login, there shall be a option called sign up page. 
-      When he clicks on sign up page. Registration page should get opened.
-   3. In registration page, there will be multiple fields to enter the details the user. For few fields there shall be 
-      validation for email and password.  
-   4. after successful login, application shall redirect to homepage. The application shall validate the user data from the database.
-      in the homepage user can be able to see the multiple options in the application.
+### Login/Register
 
-2. Home Page 
-   1. user can be able to access the homepage fully and there shall be multiple options available in the hompepage.and can be 
-      able to view the features in the application.
-   2. In the home page there shallbe a navigation bar and user can be able to access that navigation bar and the options showing in 
-      the bar able to click them.for example, there will be an option called order now. user can be able to click that option.
-   3. Whenever user clicks the order now option it should redirect to the restaurant’s page and able to show the data of 
-      restaurants present in that location.  
+   |        ID       | Requirement |
+   | :-------------: | :----------: |
+   | FR1 | Login page where user needs to enter the credentials of his/her Shall account. and then it shall redirect to home page. |
+   | FR2 | If the user is new to account/application. When the user tries to login, there shall be a option called sign up page.|
+   | FR3 | If the user clicks on sign up page. Registration page should get opened.|
+   | FR4 | In registration page, there will be multiple fields to enter the details the user. For few fields there shall be validation for email and password.|
+   | FR5 | The application shall validate the user data from the database weather its correct or not and it will process the request.|
+   | FR6 | After successful login, application shall redirect to homepage. |
 
-3. Restaurant’s Page
-   1. In the restaurant page user can be able to select the restaurant and able to see all the food items presented in the restaurant.
+### HomePage 
 
-4. Food Items Page   
-   1. the user shall be able to access the food items and he can be able to add that item to his cart and then it should store 
-      in his cart. the data needs to get update in the database as of user preferences.
+   |        ID       | Requirement |
+   | :-------------: | :----------: |
+   | FR7 | user can be able to access the homepage fully and there shall be multiple options available in the homepage. and can be able to view the features in the application.|
+   | FR8 | In the home page there shall be a navigation bar and user can be able to access that navigation bar.|
+   | FR9 | The options showing in the bar able to click them. there will be an option called order now. user can     be able to click that option. |
+   | FR10 | Whenever user clicks the order now option it should redirect to the restaurant’s page and able to show the data of restaurants present in that location.|
+   | FR11 | The User shall be able to see all the details presented in the application and able to click them or view them.|
 
-5. Cart 
-   1. The all the cart items which shall be added in his account user can be able to view those items and he can be able to 
-      edit the   quantity of those and he can able to delete the items whatever he needs.
-   2. The moment user updated or deleted few items all the data needs to be updated and the changes also needs to show in the 
-      webpage as per updated database.in the user account.
-   3. The cart page user can be able to see the option called place an order where user shall be able to place his order and 
-      then API should redirect to the payment page and he can be able to perform the operation.
 
-6. Settings Page      
-   1. In the application there shall be a footer section where the user can be able to see the option called settings when he clicks
-      that he can be able to see what all available options in that page.
-   2. In the settings page user can be able to see the option called update the password, whenever user clicks the option, 
-      he shall be  able to edit the password of his account. and the same data needs to get updated in the database.
+### Restaurant’s & Food 
 
-7. OrderItems Page
-   1. The application shall be having an option called orders. he can be able to click and perform the operation when the user 
-      tries to open the orders it should display all the records of his orders from the database
+   |        ID       | Requirement |
+   | :-------------: | :----------: |
+   | FR12 | In the restaurant page user shall be able to see all the restaurant’s presented in the location.|
+   | FR13 | In the restaurant page user shall be able to select the restaurant and able to see all the food items presented in the restaurant.|
+   | FR14 | The button needs to be active and whenever user clicked the button it should show all the food items.|
+   | FR15 | The user shall be able to feel the food items whenever shall tries to move the cursor on them which was displayed in the food items page.| 
+   | FR16 | The user shall be able to access the food items and he can be able to add that item to his cart and then it should store.|
+   | FR17 | The Data needs to get update in the database as of user preferences.|
+
+
+
+### Cart 
+   
+   |        ID       | Requirement |
+   | :-------------: | :----------: |
+   | FR18 | The all the cart items which shall be added in his account user can be able to view those items.|
+   | FR19 | The users shall be able to edit the quantity of those and he can be able to delete the items whatever he needs.|
+   | FR20 | The moment user updated or deleted few items all the data needs to be updated.|
+   | FR21 | The changes also need to show in the webpage as per updated database.in the user account.|
+   | FR22 | The cart page user can be able to see the option called place an order where user shall be able to place his order|
+
+
+### SettingsPage      
+   
+   |        ID       | Requirement |
+   | :-------------: | :----------: |
+   | FR23 | In the application there shall be a footer section where the user can be able to see the option called settings.|
+   | FR24 | The Moment user that he can be able to see what all available options in that page.|
+   | FR25 | In the settings page user can be able to see the option called update the password.|
+   | FR26 | It should redirect to the page where user shall be able to edit the password of his account.|
+   | FR27 | The same data needs to get updated in the database.|
+   | FR28 | The user can shall be able to edit the location preference in the application.|
+
+
+### OrderItemsPage
+   
+   |        ID       | Requirement |
+   | :-------------: | :----------: |
+   | FR29 | The application shall be having an option called orders. he can be able to click and perform the operation.|
+   | FR30 | That orders page will display all the records of his orders from the database.|
+   | FR31 | User can shall be to see the orders in the data wise.|
+
 
 # Non-Functional Requirements
 
@@ -142,34 +169,34 @@ This application is currently extended with the following plugins which was code
  This section was about to explain the indetails of the class diagrams and the use case diagrams,Activity diagrams which were involved in the application.
  
 ## use case Diagram 
-
+ 
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-|    UseCase1     | Food Items    |     FR5     |
-|    UseCase2     | View Items    |     FR5     |
-|    UseCase3     | Add To Cart   |     FR5     |
+|    Id1     | Food Items    |     FR14   |
+|    Id2     | View Items    |     FR18     |
+|    Id3     | Add To Cart   |     FR16    |
 
 ## Activity Diagram
 
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-|    UseCase4     | Add To Cart    |     FR5     |
-|    UseCase5     | update The quantity    |     FR5     |
-|    UseCase6     | Remove the items   |     FR5     |
+|    Id4     | Add To Cart    |     FR16    |
+|    Id5     | update The quantity    |     FR19     |
+|    Id6     | Remove the items   |     FR20     |
 
 ## Class Diagram
 
 | Artifact Name   | Requirement ID |
 | :----------:    | :----------: |
-| Class User      |     FR5     |
-| Class Location  |     FR5     |
-| Class Restuarent     |     FR5     |
-| Class Food      |     FR5     |
-| Class Admin      |     FR5     |
-| Class Cart      |     FR5     |
-| Class Cart Items      |     FR5     |
-| Class Orders      |     FR5     |
-| Class Order Items      |     FR5     |
+| Class User      |     FR1-FR6    |
+| Class Location  |     TBD     |
+| Class Restuarent     |     FR12,FR13     |
+| Class Food      |     FR14,FR15,FR16     |
+| Class Admin      |     FRtbd5     |
+| Class Cart      |     FR18,FR19,FR20    |
+| Class Cart Items      |     FR21,FR22   |
+| Class Orders      |     FR29,FR30    |
+| Class Order Items      |     FR31     |
 
 # Software Artifacts
 
