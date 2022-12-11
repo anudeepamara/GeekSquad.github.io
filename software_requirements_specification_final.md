@@ -1,8 +1,8 @@
-## This Document Describes the Functional and Non-Functional Requirements for the project.
+# This Document Describes the Functional and Non-Functional Requirements for the project.
 
 # Software Requirements
 
-# Functional Requirements
+## Functional Requirements
 
 ### Login/Register
 
@@ -71,44 +71,64 @@
    | FR31 | User can shall be to see the orders in the data wise.|
 
 
-# Non-Functional Requirements
+## Non-Functional Requirements
 
-1. Reliablity
-   1. The food order application has been easily interacting with the users and accessible to them. And it should meet all the 
-      regulatory requirements to the application.
-   2. The application should be reliable, and it should not have any vulnerability and it should check the other competitors 
-      like swiggy and zomato also in the same business. They need to understand what the mistakes are doing by them and rectify in the competition with upgrading technologies.
+### Reliablity
 
-2. Scalability 
-   1. The applications need to be tested all the possible scenarios and negative ways to keep the application bug free 
-      and the  performance of the application and the speed needs to be accurateto access the application and work with that.
-   2. If the user wants to change the password of the Application, the user will get a email verification to change the password.    
+   |        ID       | Requirement |
+   | :-------------: | :----------: |
+   | NR1 | The food order application has been easily interacting with the users and accessible to them.| 
+   | NR2 | It should meet all the regulatory requirements to the application.|
+   | NR3 | The application should be reliable, and it should not have any vulnerability and it should check the other competitors like  swiggy and zomato also in the same business.|
+   | NR4 | They need to understand what the mistakes are doing by them and rectify in the competition with upgrading technologies.|
+   | NR5 | The online ordering systems are equally beneficial to both restaurateurs and customers.|
 
-3. Perfomance
-   1. In the food order application, performance is extremely important and can be compared to how quickly the system reacts to
-      user activity or how long a user must wait for an operation to complete.   
-   2. If a problem arises from the buyer's side or otherwise from the seller side, the seller shall act quickly and accurately 
-      fullfill the order by the estimated delivery date and time.  
+### Scalability 
 
-4. Manageability 
-   1. The system's upkeep and manageability are measured by how long it takes to resolve problems thatarise in the middle of 
-      operations and by how simple it is for the administrator to control the system.
+   |        ID       | Requirement |
+   | :-------------: | :----------: |
+   | NR6 | The applications need to be tested all the possible scenarios and negative ways to keep the application bug free.|
+   | NR7 | The performance of the application and the speed needs to be accurate to access the application and work with that.|
+   | NR8 | If the user wants to change the password of the Application, the user will get an email verification to change the password.|    
+   | NR9 | The Application must work on any type of device.|
+   | NR10 | The Application should be easy to trouble shoot.|
 
-5. Security
-   1. It must allow users to verify their accounts using their phone number.
+   
+### Perfomance
+  
+   |        ID       | Requirement |
+   | :-------------: | :----------: |
+   | NR11 | In the food order application, performance is extremely important.|
+   | NR12 | It can be compared to how quickly the system reacts to user activity or how long a user must wait for an operation to complete.|
+   | NR13 | If a problem arises from the buyer's side or otherwise from the seller side, the seller shall act quickly and accurately full fill the order by the estimated delivery date and time. |
+   | NR14 | Application shall take no longer than 3 seconds to load when user tries to open it.|
+   | NR15 | After clicking onto reset password button temporary password shall be sent with a latency of no greater than 1 hour.|
+   | NR16 | Add more memory, CPU power, storage. This will work, if many users uses our application at the same time.|
 
-6. Portablity
-   1. The application is portable.where it shall be responsive from one device to others as well.
 
-7. Usablity
-   1. The application shall open without any flaw or malfunction for the homepage and other features.
-   2. The user shall easily navigate one page to other page with ease and can easily understand the purpose of features,anduseer 
-      friendly where it can be defined as Usability.
 
-8. Interoperability 
-   1. The application is interoperable is the ease with which a system can interchange data and share information with other 
-      computers and external devices.      
 
+### Security
+   
+   |        ID       | Requirement |
+   | :-------------: | :----------: |
+   | NR17 | It must allow users to verify their accounts using their phone number.|
+   | NR18 | The application is portable. Where it shall be responsive from one device to others as well.|
+   | NR19 | The system's upkeep and manageability are measured by how long it takes to resolve problems that arise in the middle of operations.|
+   | NR20 | The source code must adhere to secure coding standards.|
+   | NR21 | Any user who hasn't written the post themselves isn't allowed to delete it.|
+
+
+### Usablity
+  
+   |        ID       | Requirement |
+   | :-------------: | :----------: |
+   | NR22 | The application shall open without any flaw or malfunction for the homepage and other features.|
+   | NR23 | The user shall easily navigate one page to other page with ease and can easily understand 
+   the purpose of features.|
+   | NR24 | The application must be user friendly where it can be defined as Usability.|
+   | NR25 | Each application UI screen shall be user friendly and in easily understandable format or readable formatted.|
+   | NR26 | All users of the application must have a consistent visual experience.|
 
 
     
@@ -162,7 +182,12 @@ This application is currently extended with the following plugins which was code
 - We can check for the user feedback also to ensure that the application has been installed smoothly and working in all possible ways.
 - Based on the Booking’s made by user we can ensure that all the functional requirements have been working.
 
-## To ensure that it has resolved the issues of food ordering:
+## To ensure that discovered Issues are ressolved:
+
+- Now that issue has been resolved and user update the quantity it was reflecting in the database.
+- Whenever user tries to update the location preferences, we encountered an issue that restaurants based on the location was not listing. now we have resolved the issue and if user updated the location all the restaurants in that location was retrieving from the database.
+- The order Items while it was retrieving the order history of the user it was not reflecting in the date wise. we have rectified the issue and now it was showing all the data in the order.
+
 
 ## Traceability links
  
