@@ -14,6 +14,19 @@
 
 # Prerequisites
 
-
+- To install our application, we need to setup the Spring Tool Suite.
+- For The Database we can use the Oracle SQL or The MariaDB for the database administration.
 
 # Run Instructions
+
+- We need to setup the application in the ZAR/WAR file.
+- It can be easily installed in the any environment and operating systems.
+- Install all the packages and the dependencies to run the application.
+- Setup the database application and make changes in the application. Properties file to run the application.
+- Run the Maven Commands to Build the application and the dependencies to install.
+```sh
+mvn clean install 
+mvn install
+```
+- Create The POM.XML file and add all the dependency injections to install the versions.
+- Run the application with the Spring Tool Suite Application and we can configure the browser.
