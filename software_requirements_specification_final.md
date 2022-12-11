@@ -192,7 +192,7 @@ This application is currently extended with the following plugins which was code
 
 ## Traceability links
  
- This section was about to explain the indetails of the class diagrams and the use case diagrams,Activity diagrams which were involved in the application.
+ This section was about to explain the indetails of the class diagrams and the use case diagrams,Activity diagrams which were involves in the application.
  
 ## use case Diagram 
  
